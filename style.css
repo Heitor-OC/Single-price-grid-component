@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+ 
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border-radius: 8px;
+    width: 40%;
+    height: 52%;
+    min-width: 415px;
+    max-width: 490px;
+    max-height: 310px;
+    min-height: 310px;
+    color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0  6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.top {
+    background: #fff;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    height: 45%;
+    padding: 15px;
+    max-width: 442px;
+    max-height: 135px;
+}
+
+.top h2 {
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 15px;
+}
+
+.top h4 {
+    color: hsl(71, 73%, 54%);
+    margin-bottom: 10px;
+}
+
+.top p {
+    color: hsl(218, 22%, 67%);
+    margin-bottom: 20px;
+    font-size: 0.75em;
+}
+
+.subscription {
+    clear: both;
+}
+
+.subscription-plan {
+    background: #2BB3B1;
+    border-bottom-left-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding: 20px;
+    width: 50%;
+    min-height: 180px;
+    max-height: 180px;
+}
+
+.subscription-plan h4 {
+    margin-bottom: 15px;
+}
+
+
+
+#price {
+    display: flex;
+    align-items: center;
+    clear:both;
+}
+
+#price h1 {
+    line-height: 1.6em;
+    font-size: 1.3em;
+    float: left;
+    margin-right: 10px;
+}
+
+#price p {
+    color: hsl(216, 25%, 88%);
+    float: left;
+}
+
+
+.subscription-plan p {
+    font-size: 0.8em;
+    color: rgb(237, 242, 247);
+}
+
+.subscription-content {
+    display: flex;
+    flex-direction: column;
+    min-width: 220px;
+    
+    
+}
+
+.subscription-content a {
+    text-decoration: none;
+    background: hsl(71, 73%, 54%);
+    text-align: center;
+    line-height: 2.1em;
+    color: #fff;
+    margin-top: 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.description {
+    background: #4ABEBD;
+    border-bottom-right-radius: 8px;
+    float: right;
+    padding: 20px;
+    width: 50%;
+    max-height: 180px;
+}
+
+.description ul {
+    margin-top: 18px;
+}
+
+.description ul li {
+    list-style-type: none;
+    font-size: 0.8em;
+    color: rgb(237, 242, 247);
+}
+
